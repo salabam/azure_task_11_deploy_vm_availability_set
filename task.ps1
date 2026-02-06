@@ -44,5 +44,6 @@ for (($zone = 1); ($zone -le 2); ($zone++) ) {
     -VirtualNetworkName $virtualNetworkName `
     -SecurityGroupName $networkSecurityGroupName `
     -AvailabilitySetName $availabilitySetName `
-    -SshKeyName $sshKeyName
+    -SshKeyName $sshKeyName `
+    -AdminUsername 'azureuser'
 }
